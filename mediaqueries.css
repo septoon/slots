@@ -1,0 +1,34 @@
+@media (max-width: 640px) {
+    body {
+        margin: 0;
+    }
+    .container {
+        margin-top: 50px;
+        width: 100%;
+        height: 100vh;
+    }
+    .slot {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 150px;
+        background: rgb(233, 229, 229);
+    }
+
+    .slot img {
+    object-fit: cover;
+    height: 80%;
+    width: 80%;
+    }
+
+    .go {
+        font-size: 60px;
+        font-family: 'Monoton', cursive;
+    }
+
+    .logger {
+        text-transform: uppercase;
+        font-size: 40px;
+    }
+
+}
