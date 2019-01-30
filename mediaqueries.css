@@ -7,6 +7,10 @@
         width: 100%;
         height: 100vh;
     }
+
+    header h2 {
+        font-size: 25px;
+    }
     .slot {
         display: flex;
         justify-content: center;
